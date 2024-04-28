@@ -16,17 +16,20 @@ h5,
 h6 {
   color: black;
   font-family: var(--heading-font-family);
-  font-weight: normal;
+  font-weight: bold;
 }
 
 h1 {
   font-size: 96px;
 }
+h2 {
+  font-size: 64px;
+}
 
 p {
-  font-family: var(--heading-font-family);
   font-weight: normal;
-  margin: 0;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .heading {
@@ -43,6 +46,7 @@ p {
 .heading p {
   font-size: 36px;
   font-weight: bold;
+  margin: 0;
 }
 
 .btn-branding {
@@ -52,4 +56,13 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 18px 30px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 44px;
+  }
 }
