@@ -94,20 +94,20 @@ p {
 
 /*CSS For About.HTML page*/
 
-.about-section {
+.content-containter {
   padding: 120px 60px;
 }
 
-.about-section-content {
+.content {
   margin: 30px auto;
 }
 
-.about-section h1 {
+.content-containter h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-containter h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
@@ -116,12 +116,12 @@ p {
 }
 
 @media (max-width: 900px) {
-  .about-section {
+  .content-containter {
     padding: 5px 10px;
     text-align: center;
   }
 
-  .about-section h1 {
+  .content-containter h1 {
     font-size: 60px;
     line-height: 80px;
   }
