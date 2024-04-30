@@ -94,8 +94,12 @@ p {
 
 /*CSS For About.HTML page*/
 
-.about-section-content {
+.about-section {
   padding: 120px 60px;
+}
+
+.about-section-content {
+  margin: 30px auto;
 }
 
 .about-section h1 {
@@ -106,4 +110,19 @@ p {
 .about-section h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
+}
+.nichel-img {
+  height: 100%;
+}
+
+@media (max-width: 900px) {
+  .about-section {
+    padding: 5px 10px;
+    text-align: center;
+  }
+
+  .about-section h1 {
+    font-size: 60px;
+    line-height: 80px;
+  }
 }
