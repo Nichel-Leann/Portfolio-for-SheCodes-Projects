@@ -90,6 +90,9 @@ p {
     font-size: 44px;
   }
 
+  h4 {
+    font-size: 48px;
+  }
   .heading {
     padding: 80px 20px;
   }
@@ -148,11 +151,6 @@ p {
   h4 {
     font-size: 18px;
   }
-  /*footer .contact-box {
-    display: none;
-
-    d-none d-md-block
-  }*/
 }
 
 /*CSS For FOOTER*/
